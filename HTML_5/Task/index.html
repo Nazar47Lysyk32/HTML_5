@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма кредитної картки</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="card-form">
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="cardNumber">Номер кредитної картки</label>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" required>
+        </div>
+        <div class="form-group">
+            <label for="cardName">Ім'я власника</label>
+            <input type="text" id="cardName" name="cardName" placeholder="ІМ'Я ПРІЗВИЩЕ" required>
+        </div>
+        <div class="form-group">
+            <label for="expiry">Термін дії</label>
+            <input type="text" id="expiry" name="expiry" placeholder="MM/RR" required>
+        </div>
+        <div class="form-group">
+            <label for="cvv">CVV / CVN номер</label>
+            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Відправити">
+        </div>
+    </form>
+</div>
+</body>
+</html>
